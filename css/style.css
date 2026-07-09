@@ -5,20 +5,19 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
+
 .main-btn {
-  border: none;
-}
-.main-btn a {
   padding: 12px 30px;
   border-radius: 10px;
   text-decoration: none;
@@ -27,8 +26,9 @@ body {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+  border: none;
 }
-.main-btn a:hover {
+.main-btn:hover {
   background-color: transparent;
   color: #575757;
   border: 1px solid #1d4ed8;
@@ -61,3 +61,30 @@ header {
   cursor: pointer;
 }
 /* Header Section End Here */
+.hero-section {
+  position: relative;
+  min-height: 786px;
+  background:
+    linear-gradient(rgba(10, 10, 20, 0.55), rgba(10, 10, 20, 0.75)),
+    url("../images/banner.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-content {
+}
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-content p {
+  color: white;
+  width: 580px;
+}
+.hero-btn {
+  margin-top: 250px;
+  color: white !important;
+}
