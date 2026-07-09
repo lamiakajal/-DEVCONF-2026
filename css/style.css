@@ -1,0 +1,63 @@
+/* google fonts linking here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* common css start */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.main-btn {
+  border: none;
+}
+.main-btn a {
+  padding: 12px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main-btn a:hover {
+  background-color: transparent;
+  color: #575757;
+  border: 1px solid #1d4ed8;
+}
+/* common css end */
+
+/* Header Section Start Here */
+header {
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #575757;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+}
+.navbar ul li a:hover {
+  color: #1d4ed8;
+  cursor: pointer;
+}
+/* Header Section End Here */
