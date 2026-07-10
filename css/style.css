@@ -283,4 +283,41 @@ header {
 /* Countdown Section End Here */
 
 /* Footer Section Start Here */
+footer {
+  background-color: #0a0f1c;
+  padding: 40px 0 25px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  height: 32px;
+}
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+.footer-social i {
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+.footer-social i:hover {
+  opacity: 1;
+  color: #1d4ed8;
+  cursor: pointer;
+}
+.footer-divider {
+  border: none;
+  border-top: 1px solid #2a2f4a;
+  margin: 25px 0;
+}
+.footer-bottom {
+  text-align: center;
+  color: #a0a4b8;
+  font-size: 14px;
+}
 /* Footer Section End Here */
