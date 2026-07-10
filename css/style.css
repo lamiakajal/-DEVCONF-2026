@@ -98,7 +98,7 @@ header {
 .speakers {
   padding-top: 90px;
 }
-h2 {
+.sec-h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 700px;
@@ -151,10 +151,136 @@ h2 {
 .price {
   padding-top: 90px;
 }
+.price .container {
+  max-width: 950px;
+}
+.p-h2 {
+  margin-bottom: 0px;
+}
+.sec-para {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.price-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+.price-box {
+  border: 0.5px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 25px;
+  background-color: #f8f9fb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+.black-box {
+  background-color: #0d1b2a;
+  color: white;
+}
+
+.price-card {
+  margin-bottom: 20px;
+}
+.price-card h3 {
+  font-size: 32px;
+  margin: 5px 0;
+}
+.plan-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #575757;
+}
+.blue-plan {
+  color: #1d4ed8;
+}
+.per-person {
+  font-weight: 400;
+  font-size: 14px;
+  color: #575757;
+}
+.price-box hr {
+  border: none;
+  border-top: 0.5px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+.price-box ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.price-box ul li {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  padding-left: 15px;
+  position: relative;
+}
+.price-box ul li::before {
+  content: "•";
+  color: #1d4ed8;
+  position: absolute;
+  left: 0;
+}
+.price-btn {
+  width: 100%;
+  background-color: transparent;
+  color: #575757;
+  border: 1px solid #1d4ed8;
+}
+
+.price-btn:hover {
+  background-color: #1d4ed8;
+  color: white;
+}
+.blue-btn {
+  background-color: #1d4ed8;
+  color: white;
+}
+.blue-btn:hover {
+  background-color: white;
+  color: #575757;
+}
 /* Price Section End Here */
 
-/* Header Section Start Here */
-/* Header Section End Here */
+/* Countdown Section Start Here */
+.countdown {
+  background-color: #0d1b2a;
+  padding: 90px 0;
+  text-align: center;
+  margin-top: 90px;
+}
+.countdown-h2 {
+  color: white;
+}
+.countdown-para {
+  color: #a0a4b8;
+}
+.countdown-box {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+.time-box {
+  background-color: #10142b;
+  border: 1px solid #2a2f4a;
+  border-radius: 10px;
+  padding: 25px 30px;
+  min-width: 100px;
+}
+.time-box h3 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+.time-box p {
+  color: #a0a4b8;
+  font-size: 14px;
+}
+/* Countdown Section End Here */
 
 /* Footer Section Start Here */
 /* Footer Section End Here */
