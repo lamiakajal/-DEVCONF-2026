@@ -27,6 +27,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   border: none;
+  transition: 0.8s ease-in-out;
 }
 .main-btn:hover {
   background-color: transparent;
@@ -55,12 +56,15 @@ header {
   text-decoration: none;
   color: #575757;
   font-size: 16px;
+  transition: 0.8s ease-in-out;
 }
 .navbar ul li a:hover {
   color: #1d4ed8;
   cursor: pointer;
 }
 /* Header Section End Here */
+
+/* Hero Section Start Here */
 .hero-section {
   position: relative;
   min-height: 786px;
@@ -88,3 +92,69 @@ header {
   margin-top: 250px;
   color: white !important;
 }
+/* Hero Section End Here */
+
+/* Speakers Section Start Here */
+.speakers {
+  padding-top: 90px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700px;
+  color: #000102;
+  margin-bottom: 45px;
+}
+.speakers-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.speakers-card {
+  border: 0.5px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.speakers-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.speakers-card img {
+  width: 100%;
+  object-fit: cover;
+}
+.speakers-content {
+  padding: 20px;
+}
+.speakers-content p {
+  color: #1d4ed8;
+  font-weight: 600;
+  font-size: 14px;
+}
+.speakers-content h3 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+.speakers-content .pos {
+  color: #575757;
+  font-weight: 400;
+  font-size: 14px;
+}
+/* Speakers Section End Here */
+
+/* Price Section Start Here */
+.price {
+  padding-top: 90px;
+}
+/* Price Section End Here */
+
+/* Header Section Start Here */
+/* Header Section End Here */
+
+/* Footer Section Start Here */
+/* Footer Section End Here */
